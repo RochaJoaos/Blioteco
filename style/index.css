@@ -1,3 +1,27 @@
+@font-face {
+    font-family: 'Pepita';
+    src: url(../style/font/PetitaMedium.ttf) 
+    format(truetype);
+}
+
+@font-face {
+    font-family: 'Pepita Light';
+    src: url(../style/font/PetitaLight.ttf) 
+    format(truetype);
+}
+
+@font-face {
+    font-family: 'Pepita Bold';
+    src: url(../style/font/PetitaBold.ttf) 
+    format(truetype);
+}
+
+:root{
+    --palette-01: #ffffff;
+    --palette-02: #111111;
+    --palette-03: #424242;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -7,4 +31,30 @@ body{
     background-image: url(../style/backgroud/library.png);
     background-size: 10%;
     background-repeat: initial;
+    font-family: 'Pepita', sans-serif;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+section{
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    font-size: 10em;
+}
+
+.search{
+    width: 480px;
+    padding: 14px;
+    border-radius: 15px;
+    font-size: 1.4em;
 }
