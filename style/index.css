@@ -18,7 +18,7 @@
 
 :root{
     --palette-01: #ffffff;
-    --palette-02: #111111;
+    --palette-02: #181818;
     --palette-03: #424242;
 }
 
@@ -44,11 +44,11 @@ header{
 }
 
 nav{
-    padding: 20px;
+    padding: 15px;
 }
 
 nav > a{
-    padding: 20px;
+    padding: 15px;
     font-size: 25px;
     color: var(--palette-02);
     text-decoration: none;
